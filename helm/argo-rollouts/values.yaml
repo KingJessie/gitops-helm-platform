@@ -1,0 +1,14 @@
+controller:
+  replicas: 2
+
+dashboard:
+  enabled: true
+
+controller:
+  service:
+    enabled: true
+    type: ClusterIP
+    port: 3100
+
+rbac:
+  create: true
