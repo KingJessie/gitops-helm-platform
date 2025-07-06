@@ -12,3 +12,8 @@ server:
 configs:
   cm:
     application.instanceLabelKey: argocd.argoproj.io/instance
+
+redis:
+  enabled: true
+
+nameOverride: argocd
