@@ -1,3 +1,8 @@
+rbacConfig:
+  policy.csv: |
+    g, admin, role:admin
+  policy.default: role:readonly
+
 server:
   service:
     type: NodePort
@@ -7,6 +12,3 @@ server:
 configs:
   cm:
     application.instanceLabelKey: argocd.argoproj.io/instance
-
-  rbac:
-    policy.default: role:readonly
