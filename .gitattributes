@@ -1,0 +1,3 @@
+# Treat Helm files as YAML
+*.yaml linguist-language=YAML
+*.tpl linguist-language=YAML
